@@ -9,18 +9,14 @@ const Login_m = () => {
   const handleGoogleSignIn = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
-      toast.success("Successfully Login!", {
-        position: "top-right"
-      })
+      toast.success("Successfully Logged In!", { position: "top-right" });
       console.log(result.user);
     } catch (error) {
-      // Handle errors here
-      toast.warning(error.message, {
-        position: "top-right",
-      })
+      console.error("Error during Google sign-in:", error);
+      toast.error(`Login failed: ${error.message}`, { position: "top-right" });
     }
-
   };
+
   const styles = {
     container: {
       display: 'flex',
