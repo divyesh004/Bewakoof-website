@@ -12,7 +12,7 @@ const Mainroutes = () => {
     <div>
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        <Route path='/Men' element={<Product />}></Route>
+        <Route path='/Men/:str' element={<Product />} />
         <Route path='/Women' element={<Product />}></Route>
         <Route path='/Mobile-Covers' element={<Product />}></Route>
         <Route path='/Description/:id' element={<Description />}></Route>

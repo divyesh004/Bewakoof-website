@@ -56,12 +56,12 @@ const Home_m = () => {
           <div className="row">
             <div className="col-12 p-0 d-flex flex-column">
               <ul className="list-unstyled">
-                <Link className="col-6"> <li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Os-Tshirts-Men-1718891518.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Classic-fit-T-shirts--1--1719561701.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-3-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-4-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-5-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-6-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/T-shirt'} className="col-6"> <li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Os-Tshirts-Men-1718891518.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/T-shirt'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Classic-fit-T-shirts--1--1719561701.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Jogger'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-3-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Pant'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-4-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Shirt'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-5-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Pant'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-6-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
               </ul>
             </div>
 
@@ -72,12 +72,12 @@ const Home_m = () => {
           <div className="row">
             <div className="col-12 p-0 d-flex flex-column">
               <ul className="list-unstyled">
-                <Link className="col-6"> <li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-7-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-8-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-9-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-10-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-11-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
-                <Link className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-12-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Cargo'} className="col-6"> <li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-7-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Pajama'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-8-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Vests'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-9-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Boxer'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-10-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Sliders'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-11-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+                <Link to={'/Men/Backpack'} className="col-6"><li className="mb-2"><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-12-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
               </ul>
             </div>
 

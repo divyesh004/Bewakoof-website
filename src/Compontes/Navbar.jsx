@@ -43,7 +43,7 @@ const Navbar = () => {
               </div>
               <div className="col-5" style={{ textAlign: "left", fontFamily: "montserrat, sans-serif", fontSize: "13px", lineHeight: "30px", letterSpacing: "1px" }}>
                 <ul className="list-unstyled d-flex align-items-center">
-                  <li><Link className="nav-link link-dark" to={"Men"}>MEN</Link></li>
+                  <li><Link className="nav-link link-dark" to='/Men'>MEN</Link></li>
                   <li><Link className="nav-link link-dark" to={"Women"}>WOMEN</Link></li>
                   <li><Link className="nav-link link-dark" to={"Mobile-Covers"}>MOBILE COVERS</Link></li>
                 </ul>

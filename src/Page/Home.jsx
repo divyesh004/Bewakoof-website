@@ -55,12 +55,12 @@ const Home = () => {
         <div className="row">
           <div className="col-12 p-0">
             <ul className="list-unstyled d-flex">
-              <Link style={{ width: "30%" }}> <li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Os-Tshirts-Men-1718891518.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Classic-fit-T-shirts--1--1719561701.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-3-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-4-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-5-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-6-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/T-shirt'} style={{ width: "30%" }}> <li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Os-Tshirts-Men-1718891518.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/T-shirt'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-Classic-fit-T-shirts--1--1719561701.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Jogger'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-3-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Pant'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-4-1717767102.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Shirt'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-5-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Pant'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-6-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
             </ul>
           </div>
 
@@ -71,12 +71,12 @@ const Home = () => {
         <div className="row">
           <div className="col-12 p-0">
             <ul className="list-unstyled d-flex">
-              <Link style={{ width: "30%" }}> <li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-7-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-8-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-9-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-10-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-11-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
-              <Link style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-12-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Cargo'} style={{ width: "30%" }}> <li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-7-1717767103.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Pajama'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-8-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Vests'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-9-1717767104.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Boxer'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-10-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Sliders'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-11-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
+              <Link to={'/Men/Backpack'} style={{ width: "30%" }}><li><img src="https://images.bewakoof.com/uploads/grid/app/TrendingCategory-Carousel-600x750-new-Men-12-1717767105.jpg" style={{ width: "100%" }}></img></li></Link>
             </ul>
           </div>
 

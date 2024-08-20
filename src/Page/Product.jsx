@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Searchcontex } from '../ContextApi/Search';
 
 const Product = () => {
@@ -9,15 +9,21 @@ const Product = () => {
   const [loading, setLoading] = useState(true);
   const [order, setOrder] = useState(null);
   const [cate, setCate] = useState(null);
+  const [category1, setCategory1] = useState(null); // New state for category1
   const [categoryName, setCategoryName] = useState("Clothes for Men");
   const { search } = useContext(Searchcontex)
+  const { str } = useParams()
+  console.log(str)
 
   const fetchProducts = () => {
     setLoading(true); // Set loading to true before fetching
     const params = {
       q: search ? search : null,
+      catagory: str ? str : "",
+      category1: category1 ? category1 : null, // Include category1 in params
+
     };
-    if (cate) params.catagory = cate; // Include category filter in params
+    // Include category filter in params
     if (order) params._order = order; // Include sort order in params
 
     axios.get("https://bewakoof-server.onrender.com/Product", { params })

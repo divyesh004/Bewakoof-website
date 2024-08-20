@@ -104,7 +104,7 @@ const Description_m = () => {
                 <img
                   key={index}
                   src={src}
-                  className={`slideshow-thumbnails ${index === activeIndex ? 'active' : ''} img-fluid`}
+                  className={`slideshow-thumbnails ${index === activeIndex ? 'active' : ''} img-fluid border`}
                   onClick={() => changeSlide(index)}
                   alt=""
                 />

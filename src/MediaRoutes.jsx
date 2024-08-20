@@ -14,7 +14,7 @@ const MediaRoutes = () => {
     <div>
       <Routes>
         <Route path='/' element={<Home_m />}></Route>
-        <Route path='/Men' element={<Product_ />}></Route>
+        <Route path='/Men/:str' element={<Product_ />}></Route>
         <Route path='/Login' element={<Login_m />}></Route>
         <Route path='/EmailLogin_m' element={<EmailLogin_m />}></Route>
         <Route path='/Categorie_m' element={<Categorie_m />}></Route>

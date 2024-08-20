@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const Product_ = () => {
   const [products, setProducts] = useState([]);
@@ -8,12 +8,15 @@ const Product_ = () => {
   const [order, setOrder] = useState(null);
   const [cate, setCate] = useState(null);
   const [categoryName, setCategoryName] = useState("Clothes for Men");
+  const { str } = useParams()
 
   const fetchProducts = () => {
     setLoading(true);
 
     // Prepare params for category filtering
-    const params = {};
+    const params = {
+      catagory: str ? str : "",
+    };
     if (cate) params.catagory = cate;
 
     // Fetch products from API
