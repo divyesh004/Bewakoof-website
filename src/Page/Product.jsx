@@ -1,7 +1,8 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Searchcontex } from '../ContextApi/Search';
 
 const Product = () => {
   const [products, setProducts] = useState([]);
@@ -9,12 +10,15 @@ const Product = () => {
   const [order, setOrder] = useState(null);
   const [cate, setCate] = useState(null);
   const [categoryName, setCategoryName] = useState("Clothes for Men");
+  const { search } = useContext(Searchcontex)
 
   const fetchProducts = () => {
     setLoading(true); // Set loading to true before fetching
-    const params = {};
-    if (cate) params.catagory = cate;
-    if (order) params._order = order;
+    const params = {
+      q: search ? search : null,
+    };
+    if (cate) params.catagory = cate; // Include category filter in params
+    if (order) params._order = order; // Include sort order in params
 
     axios.get("https://bewakoof-server.onrender.com/Product", { params })
       .then((res) => {
@@ -27,11 +31,12 @@ const Product = () => {
       });
   };
 
+
   useEffect(() => {
     // Fetch products whenever category or order changes
     fetchProducts();
     setCategoryName(cate ? `${cate} for Men` : "Clothes for Men");
-  }, [cate, order]);
+  }, [cate, order, search]);
 
   const clearCategoryFilter = () => {
     setCate(null); // Reset category filter

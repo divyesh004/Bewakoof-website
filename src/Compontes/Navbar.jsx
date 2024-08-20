@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { Searchcontex } from '../ContextApi/Search'
 // import { Authcontext } from '../ContextApi/Search'
 
 const Navbar = () => {
 
-  // const { searchQuery, searchvaluefunction } = useContext(Authcontext);
+  const { search, updatesearchvalue } = useContext(Searchcontex)
   return (
     <div style={{ position: "fixed", width: "100%", zIndex: "99999" }}>
       <div className="container-fluid" style={{ backgroundColor: "#EEEEEE", height: "30px", fontSize: "10px", fontWeight: "500", fontFamily: "montserrat, sans-serif", fontStyle: "normal" }}>
@@ -53,7 +54,7 @@ const Navbar = () => {
                     <span className="search-icon">
                       <i className="bi bi-search"></i>
                     </span>
-                    <input placeholder="Search by product, category, or collection" className="search-text" style={{ width: "90%", border: "none", backgroundColor: "#f2f2f2" }}></input>
+                    <input value={search} onChange={(e) => updatesearchvalue(e.target.value)} placeholder="Search by product, category, or collection" className="search-text" style={{ width: "90%", border: "none", backgroundColor: "#f2f2f2" }}></input>
                   </div>
                   <div className="icons">
                     <Link style={{ textDecoration: "none", color: "black" }} to="/Login"> <span>Login</span></Link>

@@ -93,22 +93,22 @@ const Navbar_M = () => {
                 <ul className="list-unstyled d-flex justify-content-around mb-0">
                   <li className="active"> <NavLink style={({ isActive }) => {
                     return (isActive ? { color: "black" } : { color: "#ccc" })
-                  }} to='/' className="nav-link p-0"><i class="bi bi-arrow-up-left-square-fill ms-3 text-warning"></i>
+                  }} to='/' className="nav-link p-0 d-flex flex-column align-items-center"><i class="bi bi-arrow-up-left-square-fill text-warning"></i>
                     <p>Home</p>
                   </NavLink></li>
                   <li> <NavLink style={({ isActive }) => {
                     return (isActive ? { color: "black" } : { color: "#ccc" })
-                  }} to='/Categorie_m' className="nav-link p-0"><i class="bi bi-tag-fill ms-3 text-warning"></i>
+                  }} to='/Categorie_m' className="nav-link p-0 d-flex flex-column align-items-center"><i class="bi bi-tag-fill text-warning"></i>
                     <p>Categories</p>
                   </NavLink></li>
                   <li> <NavLink style={({ isActive }) => {
                     return (isActive ? { color: "black" } : { color: "#ccc" })
-                  }} to='/Exprole' className="nav-link p-0"><i class="bi bi-star-fill ms-3 text-warning"></i>
+                  }} to='/Exprole' className="nav-link p-0 d-flex flex-column align-items-center"><i class="bi bi-star-fill text-warning"></i>
                     <p>Explore</p>
                   </NavLink></li>
                   <li> <NavLink style={({ isActive }) => {
                     return (isActive ? { color: "black" } : { color: "#ccc" })
-                  }} to='/Login' className="nav-link p-0"><i class="bi bi-person-circle ms-3 text-warning"></i>
+                  }} to='/Login' className="nav-link p-0 d-flex flex-column align-items-center"><i class="bi bi-person-circle text-warning"></i>
                     <p>Profile</p>
                   </NavLink></li>
                 </ul>
