@@ -26,24 +26,19 @@ The application is hosted at:
 Below are some screenshots of different pages in the application:
 
 ### Home Page
-![Home Page]
-<img src="https://i.im.ge/2025/02/13/HwAbt6.Screenshot-2025-02-13-152034.png" alt="Screenshot 2025 02 13 152034" border="0">
+![Home Page](https://i.im.ge/2025/02/13/HwAbt6.Screenshot-2025-02-13-152034.png)
 
 ### Product Page
-![Product Page]
-<img src="https://i.im.ge/2025/02/13/HwAVUh.Screenshot-2025-02-13-152221.png" alt="Screenshot 2025 02 13 152221" border="0">
+![Product Page](https://i.im.ge/2025/02/13/HwAVUh.Screenshot-2025-02-13-152221.png)
 
 ### Description Page
-![Description Page]
-<img src="https://i.im.ge/2025/02/13/HwApt4.Screenshot-2025-02-13-152239.png" alt="Screenshot 2025 02 13 152239" border="0">
+![Description Page](https://i.im.ge/2025/02/13/HwApt4.Screenshot-2025-02-13-152239.png)
 
 ### Cart Page
-![Cart Page]
-<img src="https://i.im.ge/2025/02/13/HwAvzC.Screenshot-2025-02-13-152302.png" alt="Screenshot 2025 02 13 152302" border="0">
+![Cart Page](https://i.im.ge/2025/02/13/HwAvzC.Screenshot-2025-02-13-152302.png)
 
 ### Payment Page
-![Payment Page]
-<a href="https://im.ge/i/Screenshot-2025-02-13-152337.HwABWP"><img src="https://i.im.ge/2025/02/13/HwABWP.Screenshot-2025-02-13-152337.png" alt="Screenshot 2025 02 13 152337" border="0"></a>
+![Payment Page](https://i.im.ge/2025/02/13/HwABWP.Screenshot-2025-02-13-152337.png)
 
 ## Installation
 To run the project locally, follow these steps:
@@ -67,4 +62,3 @@ To run the project locally, follow these steps:
 
 ## License
 This project is licensed under the MIT License.
-
