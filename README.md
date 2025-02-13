@@ -43,7 +43,7 @@ Below are some screenshots of different pages in the application:
 
 ### Payment Page
 ![Payment Page]
-<img src="https://i.im.ge/2025/02/13/HwABWP.Screenshot-2025-02-13-152337.png" alt="Screenshot 2025 02 13 152337" border="0">
+<a href="https://im.ge/i/Screenshot-2025-02-13-152337.HwABWP"><img src="https://i.im.ge/2025/02/13/HwABWP.Screenshot-2025-02-13-152337.png" alt="Screenshot 2025 02 13 152337" border="0"></a>
 
 ## Installation
 To run the project locally, follow these steps:
