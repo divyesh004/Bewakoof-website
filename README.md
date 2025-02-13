@@ -26,7 +26,7 @@ The application is hosted at:
 Below are some screenshots of different pages in the application:
 
 ### Home Page
-![Home Page](/s1.png)
+![Home Page](public/s1.png)
 
 ### Product Page
 ![Product Page](/s2.png)
