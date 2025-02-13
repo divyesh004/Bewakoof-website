@@ -26,19 +26,19 @@ The application is hosted at:
 Below are some screenshots of different pages in the application:
 
 ### Home Page
-![Home Page](https://i.im.ge/2025/02/13/HwAbt6.Screenshot-2025-02-13-152034.png)
+![Home Page](/s1.png)
 
 ### Product Page
-![Product Page](https://i.im.ge/2025/02/13/HwAVUh.Screenshot-2025-02-13-152221.png)
+![Product Page](/s2.png)
 
 ### Description Page
-![Description Page](https://i.im.ge/2025/02/13/HwApt4.Screenshot-2025-02-13-152239.png)
+![Description Page](/s3.png)
 
 ### Cart Page
-![Cart Page](https://i.im.ge/2025/02/13/HwAvzC.Screenshot-2025-02-13-152302.png)
+![Cart Page](/s4.png)
 
 ### Payment Page
-![Payment Page](https://i.im.ge/2025/02/13/HwABWP.Screenshot-2025-02-13-152337.png)
+![Payment Page](/s5.png)
 
 ## Installation
 To run the project locally, follow these steps:
