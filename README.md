@@ -29,16 +29,16 @@ Below are some screenshots of different pages in the application:
 ![Home Page](public/s1.png)
 
 ### Product Page
-![Product Page](/s2.png)
+![Product Page](public/s2.png)
 
 ### Description Page
-![Description Page](/s3.png)
+![Description Page](public/s3.png)
 
 ### Cart Page
-![Cart Page](/s4.png)
+![Cart Page](public/s4.png)
 
 ### Payment Page
-![Payment Page](/s5.png)
+![Payment Page](public/s5.png)
 
 ## Installation
 To run the project locally, follow these steps:
